@@ -17,5 +17,6 @@ for word in words:
     else:
         freq[word] = 1
 
-print(words)
-print(freq)
+
+for word in freq:
+    print(word, freq[word])
